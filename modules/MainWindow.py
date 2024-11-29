@@ -138,7 +138,7 @@ class MainWindow(QMainWindow):
     def setUI(self):
         self.setWindowTitle("Vocabify")
         self.setGeometry(100, 100, 800, 600)
-
+        self.setWindowIcon(QIcon('icon.ico'))
         # Основной виджет
         main_widget = QWidget()
         self.setCentralWidget(main_widget)
