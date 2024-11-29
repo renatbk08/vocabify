@@ -3,7 +3,7 @@ import sqlite3
 from PyQt6.QtWidgets import QMainWindow, QWidget, QVBoxLayout, QHBoxLayout, QPushButton, QLabel, \
     QGridLayout, QLineEdit, QMessageBox, QListWidget, QListWidgetItem
 from PyQt6.QtCore import Qt, pyqtSignal
-from PyQt6.QtGui import QFont, QColor, QPalette, QLinearGradient, QBrush
+from PyQt6.QtGui import QFont, QColor, QPalette, QLinearGradient, QBrush, QIcon
 from application.modules.CreateEditModuleWindow import CreateEditModuleWindow
 from application.modules.MemorizationWindow import MemorizationWindow  # Импортируем MemorizationWindow
 
