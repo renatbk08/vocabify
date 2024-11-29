@@ -28,7 +28,7 @@ class MemorizationWindow(QMainWindow):
     def init_ui(self):
         self.setWindowTitle("Memorization Mode")
         self.setGeometry(100, 100, 800, 600)
-
+        self.setWindowIcon(QIcon('icon.ico'))
         self.central_widget = QWidget()
         self.setCentralWidget(self.central_widget)
 
