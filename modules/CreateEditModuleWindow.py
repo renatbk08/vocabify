@@ -22,7 +22,7 @@ class CreateEditModuleWindow(QMainWindow):
         super().__init__()
         self.setWindowTitle("Create/Edit Module")
         self.setGeometry(100, 100, 800, 600)
-
+        self.setWindowIcon(QIcon('icon.ico'))
         self.temp_terms = []  # Временный список для хранения терминов
         self.current_term_id = None  # ID текущего выбранного термина
         self.module_id = module_id
